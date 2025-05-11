@@ -1,5 +1,5 @@
 from tests.base import BaseTestCase
-from dto.req.AuthorRequest import AuthorRequest
+from schemas.req.AuthorRequest import AuthorRequest
 from tests.dummys.author_dummy import create_author
 from tests.dummys.book_dummy import create_book
 

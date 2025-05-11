@@ -1,4 +1,4 @@
-from dto.res.BookResponse import BookResponse
+from schemas.res.BookResponse import BookResponse
 from models.author import AuthorsModel
 from repositories.base_repository import BaseRepository
 from models.book import BookModel

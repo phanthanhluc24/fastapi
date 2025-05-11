@@ -3,7 +3,6 @@ from http.client import responses
 import pytest
 from fastapi.testclient import TestClient
 from main import app
-from dto.user.user_req import UserCreate
 
 client = TestClient(app)
 

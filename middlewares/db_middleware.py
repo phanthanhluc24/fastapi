@@ -3,7 +3,7 @@ from sqlalchemy.exc import DatabaseError
 from starlette.middleware.base import BaseHTTPMiddleware
 
 from exceptions.system_exception import DBOperationalError
-from utils.dependencies import get_db_session
+from api.v1.dependencies import get_db_session
 from utils.response import response_fail
 
 

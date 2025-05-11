@@ -1,5 +1,5 @@
-from dto.res.BookResponse import BookIsLoanResponse
-from dto.res.BookloanResponse import AuthorLoanHistoryResponse, BookloanResponse
+from schemas.res.BookResponse import BookIsLoanResponse
+from schemas.res.BookloanResponse import AuthorLoanHistoryResponse, BookloanResponse
 from exceptions.app_exception import NotFoundException
 from models.author import AuthorsModel
 from models.book import BookModel

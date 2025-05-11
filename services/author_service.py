@@ -1,8 +1,8 @@
 from collections import defaultdict
 from sqlalchemy.orm import Session
 
-from dto.req import AuthorRequest
-from dto.res.BookResponse import AuthorWithBooksResponse, BookSummary
+from schemas.req import AuthorRequest
+from schemas.res.BookResponse import AuthorWithBooksResponse, BookSummary
 from models.author import AuthorsModel
 from repositories.author_repository import AuthorRepository
 

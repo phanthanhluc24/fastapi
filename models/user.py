@@ -11,3 +11,4 @@ class UserModel(Base, TimeMixin):
     id = Column(Integer, primary_key=True, index=True)
     fullname = Column(String(150), nullable=False)
     email = Column(String(150), nullable=False)
+    password = Column(String(250), nullable=False)

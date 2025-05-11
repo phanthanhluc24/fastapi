@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
-from dto.req.BookLoanRequest import BookLoanRequest
-from dto.res.BookResponse import BookIsLoanResponse
-from dto.res.BookloanResponse import AuthorLoanHistoryResponse, BookloanResponse
+from schemas.req.BookLoanRequest import BookLoanRequest
+from schemas.res.BookResponse import BookIsLoanResponse
+from schemas.res.BookloanResponse import AuthorLoanHistoryResponse, BookloanResponse
 from repositories.author_repository import AuthorRepository
 from repositories.book_repository import BookRepository
 from repositories.bookloan_repository import BookLoanRepository

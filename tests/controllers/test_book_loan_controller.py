@@ -1,5 +1,5 @@
 from tests.dummys.author_dummy  import create_author
-from dto.req.BookLoanRequest import BookLoanRequest
+from schemas.req.BookLoanRequest import BookLoanRequest
 from tests.base import BaseTestCase
 from tests.dummys.book_dummy import create_book
 

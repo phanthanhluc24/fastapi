@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
-from dto.req.BookRequest import BookRequest
-from dto.res.BookResponse import BookResponse
+from schemas.req.BookRequest import BookRequest
+from schemas.res.BookResponse import BookResponse
 from repositories.author_repository import AuthorRepository
 from repositories.book_repository import BookRepository
 
